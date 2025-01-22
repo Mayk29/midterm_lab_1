@@ -1,11 +1,11 @@
-<div>Today's date :- {{presentDate}}</div>
+<!-- <div>Today's date :- {{presentDate}}</div>
 <div>Today's date :- {{presentDate | date}}</div>
 <div>This is a short date :- {{presentDate | date: 'shortDate'}}<br>
 This line shows the full date :- {{presentDate | date: 'fullDate'}}<br>
 This will show a formatted date :-{{presentDate | date:'M/dd/yyyy'}}<br>
 This indicates the hours and minutes:- {{presentDate | date:'h:mm'}}<br>
 Michael Ronquillo</div>
-<!-- chain pipes -->
+chain pipes
  <div>Date with uppercase :- {{presentDate | date: 'fullDate' | uppercase}}<br>
 Date with lowercase :- {{presentDate | date: 'medium' | lowercase}}</div>
 <div>Seconds changing in Time: {{time$ | async | date: 'mediumTime'}}</div>
@@ -27,5 +27,14 @@ Date with lowercase :- {{presentDate | date: 'medium' | lowercase}}</div>
 <p>{{decimalNum1 | number}}</p>
 <p>{{decimalNum2 | number}}</p>
 <p>Apply formatting: - {{decimalNum1 | number: '3.1'}}</p>
-<p>Apply formatting: - {{decimalNum1 | number: '2.1-4'}}</p>
+<p>Apply formatting: - {{decimalNum1 | number: '2.1-4'}}</p> -->
+
+<!-- My service -->
+ <h1>Created: Michael Ronquillo</h1>
+<h3>Ng Services</h3>
+ <p>Ng service: {{todaydate}}</p>
+<h3>New-cmp</h3>
+<p>{{todaydate}}</p>
+<p>{{componentproperty}}</p>
+<app-new-cmp></app-new-cmp>
 <router-outlet />
